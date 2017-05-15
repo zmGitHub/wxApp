@@ -1,5 +1,6 @@
 <template>
   <div>
+    <XHeader :left-options="{showBack: false}">婚庆啦</XHeader>
     <div class="vux-demo">
       <img class="logo" src="../assets/vux_logo.png">
       <h1> </h1>
@@ -11,10 +12,11 @@
 </template>
 
 <script>
-import { Group, Cell } from 'vux';
+import { XHeader, Group, Cell } from 'vux';
 
 export default {
   components: {
+    XHeader,
     Group,
     Cell,
   },
